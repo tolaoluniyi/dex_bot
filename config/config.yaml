@@ -1,1 +1,17 @@
+filters:
+  min_volume: 100000  # Minimum volume threshold
+  max_supply_bundled: 1000000  # Max supply to avoid bundled tokens
+  tier1_cex_listed: true  # Only interact with Tier-1 CEX listed coins
 
+blacklist:
+  coins: []  # List of blacklisted coins
+  devs: []   # List of blacklisted developers
+
+telegram:
+  bot_token: "YOUR_TELEGRAM_BOT_TOKEN"
+  chat_id: "YOUR_CHAT_ID"
+
+bitget:
+  api_key: "YOUR_BITGET_API_KEY"
+  api_secret: "YOUR_BITGET_API_SECRET"
+  api_passphrase: "YOUR_BITGET_API_PASSPHRASE"
